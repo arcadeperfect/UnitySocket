@@ -1,5 +1,5 @@
 // Create a new WebSocket connection
-var socket = new WebSocket("ws://127.0.0.1:4000");
+var socket = new WebSocket("ws://10.100.4.110:4000");
 
 socket.addEventListener('close', function (event) {
     console.log('Connection closed', event);
